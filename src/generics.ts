@@ -96,7 +96,7 @@ const res = new Resp<string, number>("data", 0);
 //=========================Дженерик в классах наследниках=========================
 
 class HTTPResp<F> extends Resp<string, number> {
-  code: F;
+  code!: F;
   setCode(code: F) {
     this.code = code;
   }
