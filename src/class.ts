@@ -251,9 +251,9 @@ class User6 {
 
 //Incorrect
 class Users extends Array<User6> {
-  searchByName(name: string): User6 | undefined {
-    // return this.filter((user) => user.name === name);
-  }
+  // searchByName(name: string): User6 | undefined {
+  //   return this.filter((user) => user.name === name);
+  // }
 
   override toString(): string {
     return this.map((user) => user.name).join(", ");
