@@ -9,6 +9,8 @@
     "strict": true,
     "strictPropertyInitialization": false,
     "skipLibCheck": true,
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }

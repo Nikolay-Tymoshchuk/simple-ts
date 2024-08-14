@@ -1,0 +1,22 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikolay-Tymoshchuk/simple-ts.git"
+  },
+  "author": "niko WonderW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolay-Tymoshchuk/simple-ts/issues"
+  },
+  "homepage": "https://github.com/Nikolay-Tymoshchuk/simple-ts#readme",
+  "description": "",
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}
